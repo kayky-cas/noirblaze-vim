@@ -14,7 +14,13 @@ let zinc_gray_600 = "#7a7a7a"
 let zinc_gray_500 = "#787878"
 let zinc_gray_200 = "#b0b0b0"
 
-let hot_pink = "#66e0ff"
+let colors_f = ["#ff0088", "#66e0ff", "#39ff14", "#faff00", "#ff5f1f", "#00f6ff", "#a8ff00", "#ff073a", "#c400ff"]
+
+call srand(localtime())
+
+let random_index = rand() % len(colors_f)
+
+let hot_pink = colors_f[random_index]
 let white = "#ffffff"
 
 let cterm_gray_900 = 233
