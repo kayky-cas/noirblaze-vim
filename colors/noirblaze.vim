@@ -14,7 +14,7 @@ let zinc_gray_600 = "#7a7a7a"
 let zinc_gray_500 = "#787878"
 let zinc_gray_200 = "#b0b0b0"
 
-let hot_pink = "#ff0088"
+let hot_pink = "#66e0ff"
 let white = "#ffffff"
 
 let cterm_gray_900 = 233
